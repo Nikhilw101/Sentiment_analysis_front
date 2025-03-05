@@ -85,7 +85,7 @@ const CommentsPage = () => {
       }
 
       const { data } = await apiClient.get('/api/comments', {
-        params: { videoId, maxResults: 500 },
+        params: { videoId, maxResults: 1000 },
         signal: controller?.signal
       });
       
