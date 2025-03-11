@@ -113,6 +113,7 @@ const CommentsPage = () => {
       console.log('Fetching comments for video:', videoId);
       const { data } = await apiClient.get('/api/comments', {
         params: { videoId, maxResults: 1000 },
+        params: { videoId, maxResults: 1000 },
         signal: controller?.signal
       });
       
