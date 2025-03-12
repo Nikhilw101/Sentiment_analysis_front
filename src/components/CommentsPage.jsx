@@ -26,7 +26,7 @@ ChartJS.register(
   Legend
 );
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://sentiment-analysis-backend-py.onrender.com';
 const COMMENTS_PER_PAGE = 100;
 
 const apiClient = axios.create({
