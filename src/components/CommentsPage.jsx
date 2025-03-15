@@ -31,7 +31,7 @@ const COMMENTS_PER_PAGE = 100;
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 30000,
+  timeout: 300000,
 });
 
 const commentCache = new Map();
